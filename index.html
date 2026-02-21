@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify123 - YOur music player </title>
+</head>
+<body>
+    <div class="container flex bg-black">
+    <div class="left ">
+             <div class="close">
+            <img class="invert" src="cross.svg" alt="">
+        </div>
+        <div class="home bg-gray rounded m-1 p-1">
+       
+            <div class="logo">
+                <img class="invert" src="logo.svg" alt="">  <div class="clone">SPOTIFY</div>
+            </div>
+            <ul>
+                <li>
+                    <img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search
+
+                </li>
+            </ul>
+        </div>
+        <div class="liberary bg-gray rounded m-1 p-1 ">
+            <div class="heading">
+               <h2> Your Liberary </h2>
+            </div>
+              <div class="songlist">
+               <ul>
+                <li>
+                   <img class="invert" src="play.svg" alt="">
+                    <div class="info">
+                        <div>Song name</div>
+                        <div>Song artist</div>
+                    </div>
+                    
+                </li>
+               </ul>
+               </div>
+<div class="footer">
+  <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+  <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+  <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+  <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+  <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+  <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+<a href="https://www.spotify.com/legal/cookies-policy/" target="_blank">Cookies</a>
+ </div>
+</div>
+
+</div>
+<div class="right  bg-gray rounded m-1 ">
+    <div class="header">
+        <div class="nav">
+        <div class="hamverger">
+            <img class="invert" src="hamverger.svg" alt="">
+        </div>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9991 19L9.83911 14C9.56672 13.7429 9.34974 13.433 9.20142 13.0891C9.0531 12.7452 8.97656 12.3745 8.97656 12C8.97656 11.6255 9.0531 11.2548 9.20142 10.9109C9.34974 10.567 9.56672 10.2571 9.83911 10L14.9991 5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M9 5L14.15 10C14.4237 10.2563 14.6419 10.5659 14.791 10.9099C14.9402 11.2539 15.0171 11.625 15.0171 12C15.0171 12.375 14.9402 12.7458 14.791 13.0898C14.6419 13.4339 14.4237 13.7437 14.15 14L9 19" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+      </div>
+        <div class="button">
+            <button class="signupbtn">Sign Up</button>
+            <button class="loginbtn" id="loginbtn">Log In</button>
+        </div>
+    </div>
+    <div class="spotify-playlist">
+        <h1>Spotify Playlist</h1>
+        <div class="cardcontainer">
+        <div class="card" data-folder="lofi-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="download.jpg" alt="">
+            <h2>Lofi Songs</h2>
+            <p>Peace, relax, mediatation, journey.</p>
+        </div>
+        <div class="card" data-folder="party-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="ab67706c0000da84e0dde9927468d3daa5df416f.jpeg" alt="">
+            <h2>Party-Songs</h2>
+            <p>Hip-Hop, party--vibe, dance, journey.</p>
+        </div>
+ <div class="card" data-folder="bhakti-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="bhakti.jpeg" alt="">
+            <h2>Bhakti-Songs </h2>
+            <p>Bhakti, bhakti-vibe, mind-refreshing, peace.</p>
+        </div>
+<div class="card" data-folder="english-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="english.jpeg" alt="">
+            <h2>English-Songs</h2>
+            <p>Engish, foreigner-vibe, brain-storming, cool.</p>
+        </div>
+        <div class="card" data-folder="punjabi-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="punjabi.jpeg" alt="">
+            <h2>Punjabi-Songs</h2>
+            <p>Punjabi, Punjabi-vibe, Active-dance, Ful-energy.</p>
+        </div>
+               <div class="card" data-folder="adult-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="adult.jpeg" alt="">
+            <h2>Adult-Songs</h2>
+            <p>Adult, Adult-leisure, Enjoy.</p>
+        </div>
+               <div class="card" data-folder="bhojpuri-songs">
+            <div class="play">
+                <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--noto" preserveAspectRatio="xMidYMid meet" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M116.46 3.96h-104c-4.42 0-8 3.58-8 8v104c0 4.42 3.58 8 8 8h104c4.42 0 8-3.58 8-8v-104c0-4.42-3.58-8-8-8z" fill="#f77e00"> </path> <path d="M110.16 3.96h-98.2a7.555 7.555 0 0 0-7.5 7.5v97.9c-.01 4.14 3.34 7.49 7.48 7.5H110.06c4.14.01 7.49-3.34 7.5-7.48V11.46c.09-4.05-3.13-7.41-7.18-7.5h-.22z" fill="#ff9800"> </path> <path d="M40.16 12.86c0-2.3-1.6-3-10.8-2.7c-7.7.3-11.5 1.2-13.8 4s-2.9 8.5-3 15.3c0 4.8 0 9.3 2.5 9.3c3.4 0 3.4-7.9 6.2-12.3c5.4-8.7 18.9-10.6 18.9-13.6z" opacity=".75" fill="#ffbd52"> </path> <g> <path d="M43.7 62.21v-25.7a2.258 2.258 0 0 1 3.4-2l43.5 25.7c1.13.72 1.47 2.22.75 3.35c-.19.3-.45.55-.75.75l-43.5 25.6c-1.08.63-2.46.27-3.09-.81c-.21-.36-.32-.77-.31-1.19v-25.7z" fill="#fafafa"> </path> </g> </g></svg>
+            </div>
+    <img src="bhojpuri.jpeg" alt="">
+            <h2>Bhojpuri-Songs</h2>
+            <p>Bhojpuri, full-msti, song in another vibe, Desi.</p>
+        </div>
+        </div>
+        <div class="playbar">
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+            <div class="songinfo">
+
+            </div>
+
+            <div class="songbutton">
+                <img id="previous" src="previoussong.svg" alt="">
+                <img id="play" src="play.svg" alt="">
+                <img id="next" src="nextsong.svg" alt="">
+            </div>
+            <div class="box" >
+            <div class="songtime"></div>
+            <div class="volume">
+                <img src="volume.svg" alt="">
+                <div class="range">
+                    <input type="range" name="volume">
+                </div>
+            </div>         </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
